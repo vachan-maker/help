@@ -23,6 +23,7 @@ tags: []
 - [**Q: How do I delete an item?**](#q-how-do-i-delete-an-item)
 - [**Q: Can I use Directory connector to sign into Bitwarden?**](#q-can-i-use-directory-connector-to-sign-into-bitwarden)
 - [**Q: How can I disable Firefox Autofill?**](#q-how-can-i-disable-firefox-autofill)
+- [**Q: What is the difference between 'Auto-fill' and 'Auto-fill and Save'?**]
 - [**Q: Does Bitwarden have a way for me to let someone into my account if I am unable to log in?**](#q-does-bitwarden-have-a-way-for-me-to-let-someone-into-my-account-if-i-am-unable-to-log-in)
 - [**Q: How can I enable Auto-fill On Page Load?**](#q-how-can-i-enable-auto-fill-on-page-load)
 - [**Q: Does Bitwarden have an Encrypted Export File?**](#q-does-bitwarden-have-an-encrypted-export-file)
@@ -131,7 +132,11 @@ To use an existing identity provider for authentication, you’ll need to subscr
 
 ### **Q: How can I disable Firefox Autofill?**
 
-You will want to check the settings of the browser. First, you will select the Options Menu in the top right corner of the window. It is the 3 line icon or "hamburger button" as some people call it. Then select Logins and Passwords. A small window will open and you will uncheck the box for Autofill logins and passwords. Then you can close the small Logins windows and go back to the Options Menu and select Options. Now find the section in my image provided and uncheck those boxes.
+**A:** You will want to check the settings of the browser. First, you will select the Options Menu in the top right corner of the window. It is the 3 line icon or "hamburger button" as some people call it. Then select Logins and Passwords. A small window will open and you will uncheck the box for Autofill logins and passwords. Then you can close the small Logins windows and go back to the Options Menu and select Options. Now find the section in my image provided and uncheck those boxes.
+
+### **Q: What is the difference between 'Auto-fill' and 'Auto-fill and Save'?**
+
+**A:** The **Auto-fill** button will auto-fill the current website or app even if that website or app is not associated with the login. Clicking the **Auto-fill and Save** button,  Bitwarden will auto-fill the login for the current website and add the website or URL to that login.
 
 ### **Q: Does Bitwarden have a way for me to let someone into my account if I am unable to log in?**
 
